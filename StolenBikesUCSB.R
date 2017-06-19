@@ -56,3 +56,63 @@ bikesStolen$Location[find.srb2] <- "SRB"
 
 find.broida <- grep("broida", bikesStolen$Location, ignore.case = T, fixed = F)
 bikesStolen$Location[find.broida] <- "BROIDA"
+
+find.campbell <- grep("^campbell", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.campbell] <- "CAMPBELL"
+
+find.sanraf <- grep("raf", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.sanraf] <- "SAN RAFAEL"
+
+find.sancruz <- grep("cruz", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.sancruz] <- "SANTA CRUZ"
+
+find.sanrosa <- grep("rosa", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.sanrosa] <- "SANTA ROSA"
+
+find.reccen <- grep("rec", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.reccen] <- "REC CEN"
+
+find.gym <- grep("gym", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.gym] <- "ROBERTSON GYM"
+
+find.phelps <- grep("phelp", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.phelps] <- "PHELPS"
+
+find.sannic <- grep("nic", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.sannic] <- "SAN NIC"
+
+find.sanmig <- grep("mig", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.sanmig] <- "SAN MIGUEL"
+
+find.southhall <- grep("south hall", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.southhall] <- "SOUTH HALL"
+
+find.northhall <- grep("north hall", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.northhall] <- "NORTH HALL"
+
+find.music <- grep("music", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.music] <- "MUSIC"
+
+find.chem <- grep("chem", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.chem] <- "CHEMISTRY"
+
+find.psych <- grep("psych", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.psych] <- "PSYCHOLOGY"
+
+find.kerr <- grep("kerr", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.kerr] <- "KERR HALL"
+
+find.harder <- grep("harder", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.harder] <- "HARDER STADIUM"
+
+find.health <- grep("health", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.health] <- "STUDENT HEALTH"
+
+find.girvetz <- grep("girvetz", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.girvetz] <- "GIRVETZ"
+
+find.theatredance <- grep("dance", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.theatredance] <- "THEATER AND DANCE"
+
+find.ucen <- grep("ucen", bikesStolen$Location, ignore.case = T, fixed = F)
+bikesStolen$Location[find.ucen] <- "UCEN"
